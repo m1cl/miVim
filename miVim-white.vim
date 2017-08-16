@@ -1,11 +1,12 @@
-"
-" AUTHOR: Michael Ajala
-"
-" 16=black, 255=white, 196=red, 88=darkred.
+" 256 noir. Basically: dark background, numerals & errors red,
+" rest different shades of gray.
+" colors 232--250 are shades of gray, from dark to dark;
+" 16=black, 255=black, 196=red, 88=darkred.
+" highdark clear
 " #09090c - very dark grey (almost nothing)
 " #2d2d30 - darkgrey 
-" #ff8080 - lightred
-" TODO: matchParenthese should be the same color :)
+" #ff8080 - darkred
+"TODO: matchParenthese should be the same color :)
 if exists("syntax_on")
 	syntax reset
 endif

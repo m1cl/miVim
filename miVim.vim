@@ -1,11 +1,12 @@
-"
-" AUTHOR: Michael Ajala
-"
+" 256 noir. Basically: dark background, numerals & errors red,
+" rest different shades of gray.
+" colors 232--250 are shades of gray, from dark to light;
 " 16=black, 255=white, 196=red, 88=darkred.
+" highlight clear
 " #09090c - very dark grey (almost nothing)
 " #2d2d30 - darkgrey 
 " #ff8080 - lightred
-" TODO: matchParenthese should be the same color :)
+"TODO: matchParenthese should be the same color :)
 if exists("syntax_on")
 	syntax reset
 endif
@@ -47,7 +48,7 @@ hi Folded        ctermbg=none       ctermfg=196 guibg=black
 hi Function      ctermbg=none       ctermfg=222
 hi Identifier    ctermbg=none       ctermfg=243 guifg=darkgrey
 hi Include       ctermbg=none       ctermfg=245
-hi Keyword       ctermbg=none       ctermfg=222 guifg=lightgreen
+hi Keyword       ctermbg=none       ctermfg=222 guifg=#f9fcae
 hi Label         ctermbg=none       ctermfg=255
 hi LineNr        ctermbg=none       ctermfg=240 guifg=lightcyan
 hi MatchParen    ctermbg=222        ctermfg=233 cterm=reverse 
@@ -84,7 +85,7 @@ hi Typedef       ctermbg=none       ctermfg=255
 hi Function                                     guifg=#fcd76a
  
 hi Type          ctermbg=none       ctermfg=lightCyan guifg=cyan
-hi VertSplit     ctermbg=black      term=none   ctermfg=white guibg=white guifg=black
+hi VertSplit     ctermbg=black      term=none   ctermfg=white guibg=black guifg=white
 hi WarningMsg    ctermbg=none       ctermfg=196
 hi WildMenu      ctermbg=none       ctermfg=240
 hi Visual        cterm=reverse      ctermbg=lightcyan   ctermfg=233 gui=none guifg=#09090c gui=reverse guibg=cyan
